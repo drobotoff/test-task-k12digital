@@ -1,0 +1,343 @@
+{
+  "data": {
+    "products": [
+      {
+        "id": "3353",
+        "link": "/products/name_1",
+        "name": "Имя 1",
+        "new": 1,
+        "sort": 1,
+        "image": "dump.jpg",
+        "rating": 0,
+        "weights": [
+          {
+            "price": "195",
+            "weight": "400"
+          }
+        ],
+        "subcategory_code": "2"
+      },
+      {
+        "id": "4288",
+        "link": "/products/name_2",
+        "name": "Имя 2",
+        "new": 1,
+        "sort": 62,
+        "image": "dump.jpg",
+        "rating": "3.44",
+        "weights": [
+          {
+            "price": "155",
+            "weight": "300"
+          }
+        ],
+        "subcategory_code": "1"
+      },
+      {
+        "id": "4289",
+        "link": "/products/name_3",
+        "name": "Имя 3",
+        "new": 1,
+        "sort": 63,
+        "image": "dump.jpg",
+        "rating": "3.25",
+        "weights": [
+          {
+            "price": "",
+            "weight": "300"
+          }
+        ],
+        "subcategory_code": "3"
+      },
+      {
+        "id": "4290",
+        "link": "/products/name_4",
+        "name": "Имя 4",
+        "new": 1,
+        "sort": 64,
+        "image": "dump.jpg",
+        "rating": "3.44",
+        "weights": [
+          {
+            "price": "155",
+            "weight": "300"
+          }
+        ],
+        "subcategory_code": "1"
+      },
+      {
+        "id": "4291",
+        "link": "/products/name_5",
+        "name": "Имя 5",
+        "new": 1,
+        "sort": 65,
+        "image": "dump.jpg",
+        "rating": "3.44",
+        "weights": [
+          {
+            "price": "155",
+            "weight": "300"
+          }
+        ],
+        "subcategory_code": "4"
+      },
+      {
+        "id": "579",
+        "link": "/products/name_6",
+        "name": "Имя 6",
+        "new": 0,
+        "sort": 66,
+        "image": "dump.jpg",
+        "rating": "3.78",
+        "weights": [
+          {
+            "price": "131",
+            "weight": "300"
+          }
+        ],
+        "subcategory_code": "1"
+      },
+      {
+        "id": "587",
+        "link": "/products/name_7",
+        "name": "Имя 7",
+        "new": 0,
+        "sort": 67,
+        "image": "dump.jpg",
+        "rating": 0,
+        "weights": [
+          {
+            "price": "125",
+            "weight": "300"
+          }
+        ],
+        "subcategory_code": "2"
+      },
+      {
+        "id": "580",
+        "link": "/products/name_8",
+        "name": "Имя 8",
+        "new": 0,
+        "sort": 68,
+        "image": "dump.jpg",
+        "rating": 0,
+        "weights": [
+          {
+            "price": "134",
+            "weight": "300"
+          }
+        ],
+        "subcategory_code": "1"
+      },
+      {
+        "id": "586",
+        "section_id": "102",
+        "link": "/products/name_9",
+        "name": "Имя 9",
+        "new": 0,
+        "sort": 69,
+        "image": "dump.jpg",
+        "rating": 0,
+        "weights": [
+          {
+            "price": "108,9",
+            "weight": "300"
+          }
+        ],
+        "subcategory_code": "3"
+      },
+      {
+        "id": "2976",
+        "link": "/products/name_10",
+        "name": "Имя 10",
+        "new": 0,
+        "sort": 70,
+        "image": "dump.jpg",
+        "rating": "3.2",
+        "weights": [
+          {
+            "price": "",
+            "weight": "480"
+          }
+        ],
+        "subcategory_code": "4"
+      },
+      {
+        "id": "2977",
+        "link": "/products/name_11",
+        "name": "Имя 11",
+        "new": 0,
+        "sort": 70,
+        "image": "dump.jpg",
+        "rating": "3.27",
+        "weights": [
+          {
+            "price": "125",
+            "weight": "540"
+          }
+        ],
+        "subcategory_code": "4"
+      },
+      {
+        "id": "3062",
+        "link": "/products/name_12",
+        "name": "Имя 12",
+        "new": 0,
+        "sort": 70,
+        "image": "dump.jpg",
+        "rating": "3.68",
+        "weights": [
+          {
+            "price": "185",
+            "weight": "530"
+          }
+        ],
+        "subcategory_code": "1"
+      },
+      {
+        "id": "585",
+        "link": "/products/name_13",
+        "name": "Имя 13",
+        "new": 0,
+        "sort": 300,
+        "image": "dump.jpg",
+        "rating": "3.2",
+        "weights": [
+          {
+            "price": "165",
+            "weight": "530"
+          }
+        ],
+        "subcategory_code": "3"
+      },
+      {
+        "id": "572",
+        "link": "/products/name_14",
+        "name": "Имя 14",
+        "new": 0,
+        "sort": 400,
+        "image": "dump.jpg",
+        "rating": "3.25",
+        "weights": [
+          {
+            "price": "145",
+            "weight": "430"
+          }
+        ],
+        "subcategory_code": "3"
+      },
+      {
+        "id": "581",
+        "link": "/products/name_15",
+        "name": "Имя 15",
+        "new": 0,
+        "sort": 500,
+        "image": "dump.jpg",
+        "rating": 0,
+        "weights": [
+          {
+            "price": "209",
+            "weight": "540"
+          },
+          {
+            "price": "",
+            "weight": "310"
+          }
+        ],
+        "subcategory_code": "2"
+      },
+      {
+        "id": "15411",
+        "link": "/products/name_16",
+        "name": "Имя 16",
+        "new": 1,
+        "sort": 500,
+        "image": "dump.jpg",
+        "rating": 0,
+        "weights": [
+          {
+            "price": "151,9",
+            "weight": "680"
+          }
+        ],
+        "subcategory_code": "1"
+      },
+      {
+        "id": "15432",
+        "link": "/products/name_17",
+        "name": "Имя 17",
+        "new": 1,
+        "sort": 500,
+        "image": "dump.jpg",
+        "rating": 0,
+        "weights": [
+          {
+            "price": "258,4",
+            "weight": "540"
+          }
+        ],
+        "subcategory_code": "3"
+      },
+      {
+        "id": "15433",
+        "link": "/products/name_18",
+        "name": "Имя 18",
+        "new": 1,
+        "sort": 500,
+        "image": "dump.jpg",
+        "rating": 0,
+        "weights": [
+          {
+            "price": "204",
+            "weight": "680"
+          }
+        ],
+        "subcategory_code": "1"
+      },
+      {
+        "id": "583",
+        "link": "/products/name_19",
+        "name": "Имя 19",
+        "new": 0,
+        "sort": 1000,
+        "image": "dump.jpg",
+        "rating": "2.94",
+        "weights": [
+          {
+            "price": "175",
+            "weight": "720"
+          },
+          {
+            "price": "",
+            "weight": "580"
+          },
+          {
+            "price": "",
+            "weight": "370"
+          }
+        ],
+        "subcategory_code": "1"
+      },
+      {
+        "id": "582",
+        "link": "/products/name_20",
+        "name": "Имя 20",
+        "new": 0,
+        "sort": 2000,
+        "image": "dump.jpg",
+        "rating": "3.1",
+        "weights": [
+          {
+            "price": "155",
+            "weight": "580"
+          },
+          {
+            "price": "139",
+            "weight": "340"
+          }
+        ],
+        "subcategory_code": "2"
+      }
+    ]
+  }
+}

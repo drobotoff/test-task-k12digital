@@ -1,0 +1,277 @@
+/* Fonts */
+@font-face {
+  font-family: "Myriad Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/MyriadPro-Regular.otf");
+}
+@font-face {
+  font-family: "Myriad Pro Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/MyriadPro-Light.otf");
+}
+@font-face {
+  font-family: "Myriad Pro Semi Cond";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/MyriadPro-SemiboldCond.otf");
+}
+@font-face {
+  font-family: "Myriad Pro Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/MyriadPro-Black.otf");
+}
+.category-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.category-page .subcategory {
+  flex: 20%;
+}
+.category-page .subcategory ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+.category-page .subcategory ul li {
+  list-style: none;
+  margin: 0 0 10px 0;
+  width: 133px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 0 10px 10px 0;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+.category-page .subcategory ul li:hover, .category-page .subcategory ul li.active {
+  width: 156px;
+  background-color: #61b78a;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+.category-page .subcategory ul li:hover a span.icon, .category-page .subcategory ul li.active a span.icon {
+  width: 126px;
+}
+.category-page .subcategory ul li:hover a span.icon-barbecue, .category-page .subcategory ul li.active a span.icon-barbecue {
+  background: url("./icons/barbecue_white.png") no-repeat 50% 50%;
+}
+.category-page .subcategory ul li:hover a span.icon-food, .category-page .subcategory ul li.active a span.icon-food {
+  background: url("./icons/food_white.png") no-repeat 50% 50%;
+}
+.category-page .subcategory ul li:hover a span.icon-mix, .category-page .subcategory ul li.active a span.icon-mix {
+  background: url("./icons/mix_white.png") no-repeat 50% 50%;
+}
+.category-page .subcategory ul li:hover a span.icon-snack, .category-page .subcategory ul li.active a span.icon-snack {
+  background: url("./icons/snack_white.png") no-repeat 50% 50%;
+}
+.category-page .subcategory ul li:hover a span.text, .category-page .subcategory ul li.active a span.text {
+  color: #ffffff;
+  padding-left: 25px;
+}
+.category-page .subcategory ul li a {
+  text-decoration: none;
+  text-align: center;
+}
+.category-page .subcategory ul li a span {
+  display: block;
+  padding: 10px;
+}
+.category-page .subcategory ul li a span.icon {
+  width: 103px;
+  height: 37px;
+}
+.category-page .subcategory ul li a span.icon-barbecue {
+  background: url("./icons/barbecue_blue.png") no-repeat 50% 50%;
+}
+.category-page .subcategory ul li a span.icon-food {
+  background: url("./icons/food_blue.png") no-repeat 50% 50%;
+}
+.category-page .subcategory ul li a span.icon-mix {
+  background: url("./icons/mix_blue.png") no-repeat 50% 50%;
+}
+.category-page .subcategory ul li a span.icon-snack {
+  background: url("./icons/snack_blue.png") no-repeat 50% 50%;
+}
+.category-page .subcategory ul li a span.text {
+  width: 103px;
+  color: #00b0d6;
+  font-family: "Myriad Pro", serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.category-page .items {
+  flex: 80%;
+}
+.category-page .items ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 900px;
+  justify-content: space-between;
+}
+.category-page .items ul li {
+  list-style: none;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  order: 5;
+}
+.category-page .items ul li:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.category-page .items ul li:nth-child(1) {
+  order: 1;
+}
+.category-page .items ul li:nth-child(2) {
+  order: 2;
+}
+.category-page .items ul li:nth-child(3) {
+  order: 3;
+}
+.category-page .items ul li:nth-child(4) {
+  order: 4;
+  width: 600px;
+}
+.category-page .items ul li:nth-child(4) div {
+  text-align: left;
+}
+.category-page .items ul li div {
+  text-align: center;
+}
+.category-page .items ul li div.recept-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.category-page .items ul li div.recept-block .recept-block-title {
+  position: relative;
+  width: 300px;
+  color: #2d2d2d;
+  font-family: Myriad Pro Semi Cond;
+  font-size: 42px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.category-page .items ul li div.recept-block .recept-block-title .recept-block-title-corner {
+  position: absolute;
+  border-left: 1px solid #32ac56;
+  border-top: 1px solid #32ac56;
+  width: 150px;
+  height: 25px;
+}
+.category-page .items ul li div.recept-block .recept-block-title .recept-block-title-wrapper {
+  padding: 15px;
+}
+.category-page .items ul li div.recept-block .recept-block-text {
+  padding: 30px;
+}
+.category-page .items ul li div.recept-block .recept-block-text .recept-block-text-title2 {
+  color: #333333;
+  font-family: Myriad Pro Semi Cond;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.category-page .items ul li div.recept-block .recept-block-text .recept-block-text-spliter {
+  width: 29px;
+  height: 7px;
+  background-color: #5c9b4f;
+  margin: 20px 0;
+}
+.category-page .items ul li div.recept-block .recept-block-text .recept-block-text-title3 {
+  color: #4a4a4a;
+  font-family: Myriad Pro Semi Cond;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.category-page .items ul li div div.image {
+  position: relative;
+}
+.category-page .items ul li div div.image div.product-new {
+  width: 75px;
+  border-radius: 16px;
+  background-color: #3dadd2;
+  color: #ffffff;
+  font-family: Myriad Pro Black;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 32px;
+  text-transform: uppercase;
+  float: right;
+  margin: 10px;
+}
+.category-page .items ul li div div.image div.product-no-new {
+  height: 52px;
+}
+.category-page .items ul li div div.image div.product-name {
+  color: #3dadd2;
+  font-family: Myriad Pro Light;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+}
+.category-page .items ul li div div.weights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.category-page .items ul li div div.weights .active {
+  width: 66px;
+  border-radius: 10px;
+  border: 2px solid #3dadd2;
+  color: #3dadd2;
+  font-family: Myriad Pro Light;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  cursor: pointer;
+}
+.category-page .items ul li div div.weights .no-active {
+  width: 66px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  opacity: 0.5;
+  color: #000000;
+  font-family: Myriad Pro Light;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  cursor: pointer;
+}
+.category-page .items ul li div div.price {
+  padding: 20px 0;
+}
+.category-page .items ul li div div.price div.price-text {
+  color: #3dadd2;
+  font-family: Myriad Pro Light;
+  font-size: 24px;
+  font-weight: 600;
+}
+.category-page .items ul li div div.buy button {
+  width: 160px;
+  box-shadow: 0 2px 0 #068fb5;
+  border-radius: 2px;
+  background-image: linear-gradient(180deg, #3fb8dc 0%, #08a6ce 100%);
+  border: none;
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 5px 5px 5px;
+  cursor: pointer;
+}
+.category-page .items ul li div div.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=main.css.map */
